@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, serif;
+}
+nav{
+    background-color: rgb(225, 234, 234);
+}
+nav .cnx{
+    display: inline-block;
+    margin: 10px;
+    justify-content: center;
+}
+#lien{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(111, 35, 211, 0.816);
+}
+
+ul{
+    text-align: center;
+    background-color: rgb(225, 234, 234);
+    margin-top: 0px;
+    padding: 10px;
+    width: 100%;
+    border-top: 1px solid rgb(163, 153, 153);
+    height: 20px;
+    justify-content: center;
+}
+nav p {
+    justify-content: center;
+}
+nav p img{
+    width: 20px;
+    justify-content: center;
+    color: rgba(111, 35, 211, 0.816);
+}
+
+ul li{
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    float: right;
+    margin-right: 50px;
+    top: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.title{
+    background-image: url(images/fond.avif);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-position-y: -2px ;
+    background-position-x: 2px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
+.title h1{
+    font-family: 'Nosifer',cursive;
+    font-size: 7em;
+    text-shadow: 4px 4px 15px rgb(134, 61, 112);
+    color: rgb(250, 248, 249);
+}
+
+section{
+    margin-top: 50px;
+
+
+}
+.model{
+    display: inline-block;
+    margin: 45px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(225, 234, 234);
+    align-content: center;
+    width: 245px;
+    height: max-content;
+    justify-content: center;
+    transition: 1s ease;
+}
+.model:hover{
+    cursor: pointer;
+}
+.model img{
+    width: 150px;
+    height: 150px;
+    border-radius:100%;
+}
+.detail{
+    text-align: center;
+    padding: 50px;
+}
+.detail h2{
+    font-size: 34px;
+    text-decoration: dotted;
+}
+footer .contact{
+    margin-top: 80px;
+    font-size: 22px;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(225, 234, 234);
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    background-color: rgb(225, 234, 234);
+}
